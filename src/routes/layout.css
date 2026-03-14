@@ -21,10 +21,15 @@ body, html {
     color: #b3d886;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-#skipIntro {
+#introText {
     color: #c8e9a0;
+}
+
+#introVideo {
+    padding-bottom: 15px;
 }
