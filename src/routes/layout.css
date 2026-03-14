@@ -1,0 +1,30 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+/** 
+    color pallete:
+    jet black // #162521
+    tea green // #c8e9a0
+    india green // #358600
+    pacific blue // #66999b
+    strong cyan // #06bcc1
+ **/
+
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: #66999b;
+}
+
+#loadingSkip {
+    font-family: 'Courier New', Courier, monospace;
+    color: #b3d886;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#skipIntro {
+    color: #c8e9a0;
+}
