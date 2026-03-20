@@ -1,5 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
+
+/** holy fonts **/
+.pixelify-sans-regular {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
 @font-face {
     font-family: 'Phantom Sans';
     src:
@@ -42,6 +51,7 @@
     pacific blue // #66999b
     strong cyan // #06bcc1
 **/
+
 .hidescrollbar::-webkit-scrollbar {
     display: none;
 }
@@ -54,11 +64,12 @@ body, html {
     height: 100%;
     margin: 0;
     background-color: #162521;
+    font-weight: bold;
 }
 
 #loadingSkip {
-    font-family: 'Courier New', Courier, monospace;
-    color: #b3d886;
+    font-family: "Pixelify Sans", sans-serif;
+    color: #c8e9a0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -99,10 +110,9 @@ body, html {
     color: #ec3750;
     font-family: 'Phantom Sans', sans-serif;
     font-size: clamp(2.4rem, 6vw, 5.8rem);
-    font-weight: 700;
+    font-weight: bold;
     letter-spacing: 0.06em;
     line-height: 0.95;
-    text-transform: uppercase;
     text-align: center;
     opacity: 0;
     white-space: nowrap;
@@ -112,11 +122,22 @@ body, html {
 }
 
 .intro-title .eightbit {
-    font-family: 'Courier New', Courier, monospace !important;
-    color: #b3d886 !important;
+    font-family: "Pixelify Sans", sans-serif;
+    color: #c8e9a0 !important;
     letter-spacing: 5px !important;
     font-weight: normal !important;
     text-shadow: none !important;
+}
+
+#hcl {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    width: min(180px, 35vw);
+    height: auto;
+    transform: translateY(-2px);
+    pointer-events: none;
 }
 
 @media (max-width: 640px) {

@@ -1,0 +1,102 @@
+/** 
+    color pallete:
+    jet black // #162521
+    tea green // #c8e9a0
+    india green // #358600
+    pacific blue // #66999b
+    strong cyan // #06bcc1
+**/
+
+/** font hell **/
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+.pixelify-sans-regular {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/** classes **/
+.text {
+    font-family: "Pixelify Sans", sans-serif;
+    color: #c8e9a0;
+    font-weight: regular;
+}
+
+:global(body) {
+    background: #000000;
+}
+
+.home-page {
+    min-height: 100vh;
+    width: min(1100px, 92vw);
+    margin: 0 auto;
+    padding: 2rem 0 3rem;
+}
+
+.hero {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.section-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1rem;
+}
+
+.content-card {
+    border: 2px solid #66999b;
+    background: #162521;
+    border-radius: 12px;
+    padding: 1rem;
+    box-shadow: 0 0 0 2px rgba(6, 188, 193, 0.2) inset;
+}
+
+.content-card h2 {
+    margin: 0 0 0.75rem;
+    letter-spacing: 2px;
+    font-size: clamp(1.1rem, 2vw, 1.5rem);
+}
+
+.content-card p {
+    margin: 0.5rem 0;
+    line-height: 1.5;
+}
+
+/** ids **/
+#title {
+    margin: 0;
+    font-size: clamp(2.5rem, 8vw, 4.7rem);
+    padding-top: 1rem;
+    text-align: center;
+    letter-spacing: 0.25em;
+}
+
+#subtitle {
+    margin: 0.5rem auto 0;
+    max-width: 40ch;
+    font-size: clamp(1rem, 3vw, 2rem);
+    text-align: center;
+}
+
+#larger {
+    font-size: 22px;
+}
+
+@media (max-width: 900px) {
+    .home-page {
+        width: 94vw;
+    }
+
+    #title {
+        letter-spacing: 0.15em;
+    }
+}
+
+@media (max-width: 700px) {
+    .home-page {
+        padding-top: 1.5rem;
+    }
+}
+
