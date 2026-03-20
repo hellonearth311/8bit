@@ -1,14 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
 
-/** holy fonts **/
-.pixelify-sans-regular {
-  font-family: "Pixelify Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+@font-face {
+    font-family: 'Pixeloid Mono';
+    src: url('/assets/PixeloidMono.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
 }
+
+/** holy fonts **/
 @font-face {
     font-family: 'Phantom Sans';
     src:
@@ -68,7 +69,7 @@ body, html {
 }
 
 #loadingSkip {
-    font-family: "Pixelify Sans", sans-serif;
+    font-family: 'Pixeloid Mono', monospace;
     color: #c8e9a0;
     display: flex;
     flex-direction: column;
@@ -122,7 +123,7 @@ body, html {
 }
 
 .intro-title .eightbit {
-    font-family: "Pixelify Sans", sans-serif;
+    font-family: 'Pixeloid Mono', monospace;
     color: #c8e9a0 !important;
     letter-spacing: 5px !important;
     font-weight: normal !important;
@@ -159,4 +160,8 @@ body, html {
 100% {
     opacity: 1;
 }
+}
+
+a:link {
+    color: #358600;
 }

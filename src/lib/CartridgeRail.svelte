@@ -53,7 +53,7 @@
     transform: translate(-50%, -50%);
     letter-spacing: 0.2em;
     font-size: 0.95rem;
-    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Pixeloid Mono', monospace;
     color: #358600;
     pointer-events: none;
 }

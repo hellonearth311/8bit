@@ -41,7 +41,7 @@
         <br>
         <br>
         <h2>Who can participate?</h2>
-        <p2>Any teenager from 13-19 in <a href="https://hackclub.com/" target="_blank" rel="noopener noreferrer" data-sveltekit-reload>Hack Club</a>!</p2>
+        <p2>Any teenager from 13-18 in <a href="https://hackclub.com/" target="_blank" rel="noopener noreferrer" data-sveltekit-reload>Hack Club</a>!</p2>
         
     </article>
 </main>
