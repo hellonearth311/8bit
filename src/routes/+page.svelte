@@ -21,7 +21,7 @@
     }
 </script>
 
-<title>8bit YSWS</title>
+<title>8-Bit YSWS</title>
 <img src="assets/hack_club_flag.png" alt="orpheus" id="hcl">
 
 <div class="intro-shell">
