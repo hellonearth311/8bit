@@ -12,12 +12,12 @@
     }
 
     function handleOutroComplete() {
-        goto(resolve('/home?intro=1'));
+        goto(resolve('/home/info'));
     }
 
     function handleSkipIntro(event: MouseEvent) {
         event.preventDefault();
-        goto(resolve('/home?intro=1'));
+        goto(resolve('/home/info'));
     }
 </script>
 
@@ -30,6 +30,6 @@
             <h1 class="intro-title">Hack Club <span class="eightbit">8-Bit</span></h1>
         </div>
     </div>
-    <p id="loadingSkip" style="transition: opacity 0.5s ease-in;" style:opacity={outroRunning ? 0 : 1}><a href={resolve('/home?intro=1')} on:click={handleSkipIntro}>skip intro</a></p>
+    <p id="loadingSkip" style="transition: opacity 0.5s ease-in;" style:opacity={outroRunning ? 0 : 1}><a href={resolve('/home/info')} on:click={handleSkipIntro}>skip intro</a></p>
 </div>
 
