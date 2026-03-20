@@ -5,6 +5,8 @@
 </script>
 <style>@import '../page.css'; </style>
 
+<title>FAQ</title>
+
 <main class="home-page text">
     <header class="hero">
         <h1 id="title">FAQ</h1>

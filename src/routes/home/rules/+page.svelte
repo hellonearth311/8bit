@@ -5,6 +5,8 @@
 </script>
 <style>@import '../page.css'; </style>
 
+<title>Rules</title>
+
 <main class="home-page text">
     <header class="hero">
         <h1 id="title">RULES</h1>
