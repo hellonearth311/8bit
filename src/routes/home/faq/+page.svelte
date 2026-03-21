@@ -3,7 +3,13 @@
 
     const activeId = 'faq';
 </script>
-<style>@import '../page.css'; </style>
+<style>
+@import '../page.css';
+h2 {
+    font-size: small;
+    color: #358600;
+}
+</style>
 
 <title>FAQ</title>
 
