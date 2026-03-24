@@ -1,42 +1,9 @@
-# sv
+# 8-Bit Website
+Hey! This is the official website for the Hack Club 8-Bit YSWS!
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+YS: A game or program that works on a retro console
 
-## Creating a project
+WS: A custom retro console designed by a Hack Clubber that can emulate your game!
 
-If you're seeing this, you've probably already done this step. Congrats!
-
-```sh
-# create a new project
-npx sv create my-app
-```
-
-To recreate this project with the same configuration:
-
-```sh
-# recreate this project
-npx sv@0.12.7 create --template minimal --types ts --add prettier playwright tailwindcss="plugins:typography" eslint --install npm 8bit
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```sh
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```sh
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+## Where am I?
+If you want to go the website for the YSWS, head on over to [the website!](https://8-bit.dino.icu)
